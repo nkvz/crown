@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: GoldData
   m_EditorClassIdentifier: 
   nameObject: Gold
-  amount: 0
+  amount: 103
   lvlObject: 1
   enumScale: 1
