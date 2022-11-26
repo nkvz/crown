@@ -13,5 +13,7 @@ MonoBehaviour:
   m_Name: PeopleData
   m_EditorClassIdentifier: 
   nameObject: People
+  amount: 0
   lvlObject: 0
   enumScale: 1
+  priceUpgrade: 10

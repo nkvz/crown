@@ -13,5 +13,7 @@ MonoBehaviour:
   m_Name: WoodData
   m_EditorClassIdentifier: 
   nameObject: Wood
+  amount: 0
   lvlObject: 0
   enumScale: 1
+  priceUpgrade: 10

@@ -13,5 +13,7 @@ MonoBehaviour:
   m_Name: CrystalData
   m_EditorClassIdentifier: 
   nameObject: Crystal
+  amount: 0
   lvlObject: 0
   enumScale: 1
+  priceUpgrade: 10

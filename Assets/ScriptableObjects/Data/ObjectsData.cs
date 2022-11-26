@@ -10,6 +10,7 @@ public class ObjectsData : ScriptableObject
     public int amount;
     public int lvlObject;
     public int enumScale;
+    public int priceUpgrade;
 
     public void Farm()
     {
