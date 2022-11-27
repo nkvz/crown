@@ -6,13 +6,15 @@ public class SelectObject : MonoBehaviour
 {
     [Header("Set in Inspector")]
     public ObjectsData objectData;
-    public GameObject WindowUpgrade;
+    public GameObject windowUpgrade;
     public UpgradeOOP upgradeOOP;
-    public bool Selected;
+    public ButtonExitWIndow exitWindow;
 
     public void SelectingObject()
     {
         upgradeOOP.objectsData = objectData;
         upgradeOOP.UpdText();
+        exitWindow.thisWindow.SetActive(true);
+        exitWindow.exitWindow.SetActive(true);
     }
 }
