@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8394d48c7f53244883e71805ba7240b, type: 3}
   m_Name: StoneData
   m_EditorClassIdentifier: 
+  minionImage: {fileID: 21300000, guid: c40dc006116d7f943acc6c1dc066c6b2, type: 3}
   nameObject: Stone
   amount: 0
   lvlObject: 0

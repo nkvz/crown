@@ -8,6 +8,7 @@ public class UpgradeOOP : MonoBehaviour
     [Header("Set in Inspector")]
     public PlayerData playerData;
     public ObjectsData objectsData;
+    public Image minionImage;
 
     [Header("Texts")]
     public Text NameObject;
@@ -33,5 +34,9 @@ public class UpgradeOOP : MonoBehaviour
     {
         NameObject.text = objectsData.name;
         lvlObject.text = objectsData.lvlObject.ToString();
+
+        minionImage.sprite = objectsData.minionImage;
+
+
     }
 }
