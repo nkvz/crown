@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -32,6 +30,4 @@ public class PlayerData : MonoBehaviour
         people.text = peopleData.amount.ToString();
         crystal.text = crystalData.amount.ToString();
     }
-
-
 }

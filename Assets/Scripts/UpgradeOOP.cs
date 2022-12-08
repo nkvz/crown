@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -36,7 +34,5 @@ public class UpgradeOOP : MonoBehaviour
         lvlObject.text = objectsData.lvlObject.ToString();
 
         minionImage.sprite = objectsData.minionImage;
-
-
     }
 }
