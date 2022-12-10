@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8394d48c7f53244883e71805ba7240b, type: 3}
   m_Name: GoldData
   m_EditorClassIdentifier: 
-  minionImage: {fileID: 21300000, guid: f5502b47f7a68c947876a97b8bfc4bd8, type: 3}
+  minionImage: {fileID: 21300000, guid: 9fe797e10d7c8cf4fb3b14d4c12d1386, type: 3}
   nameObject: Gold
-  amount: 66
+  amount: 224
   lvlObject: 1
   enumScale: 1
   priceUpgrade: 10
