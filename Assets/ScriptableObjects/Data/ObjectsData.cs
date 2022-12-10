@@ -5,7 +5,6 @@ using UnityEngine.UI;
 public class ObjectsData : ScriptableObject
 {
     [Header("Set in Inspector")]
-    public Sprite minionImage;
     public string nameObject;
     public int amount;
     public int lvlObject;

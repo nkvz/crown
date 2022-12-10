@@ -4,15 +4,19 @@ public class SelectObject : MonoBehaviour
 {
     [Header("Set in Inspector")]
     public ObjectsData objectData;
-    public GameObject windowUpgrade;
+    public GameObject goUpgrade;
     public UpgradeOOP upgradeOOP;
-    public ButtonExitWIndow exitWindow;
+
+    public GameObject[] goUpgradess;
 
     public void SelectingObject()
     {
+        for (int i = 0; i < goUpgradess.Length; i++)
+        {
+            goUpgradess[i].SetActive(false);
+        }
+
         upgradeOOP.objectsData = objectData;
-        upgradeOOP.UpdText();
-        exitWindow.thisWindow.SetActive(true);
-        exitWindow.exitWindow.SetActive(true);
+        goUpgrade.SetActive(true);
     }
 }

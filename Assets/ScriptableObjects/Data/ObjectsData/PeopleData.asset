@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8394d48c7f53244883e71805ba7240b, type: 3}
   m_Name: PeopleData
   m_EditorClassIdentifier: 
-  minionImage: {fileID: 21300000, guid: f5502b47f7a68c947876a97b8bfc4bd8, type: 3}
+  minionImage: {fileID: 21300000, guid: 4384a6da7faba6e41b9e996c6f797f61, type: 3}
   nameObject: People
   amount: 0
   lvlObject: 0
